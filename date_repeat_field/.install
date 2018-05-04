@@ -1,0 +1,28 @@
+<?php
+/**
+ * @file
+ * Install, update and uninstall functions for the date_repeat_field module.
+ *
+ */
+
+
+/**
+ * Implements hook_update_last_removed().
+ */
+function date_repeat_field_update_last_removed() {
+  return;
+}
+
+/**
+ * Implements hook_update_N().
+ */
+function date_repeat_field_update_1000() {
+  $config = config('date_repeat_field.settings');
+}
+
+/**
+ * Implements hook_install().
+ */
+function date_repeat_field_install() {
+  // Dynamically generated variable data was detected.
+}
